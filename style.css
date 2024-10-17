@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Assistant", sans-serif;
+    line-height: 1.6;
+}
+
+.header{
+    background-color: #0D47A1;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.box{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+    border-radius: 20px;
+    color: #424242;
+    font-size: 1.1rem;
+
+}
+
+.footer{
+    background-color: #0D47A1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1{
+    background-image: url(https://pixabay.com/get/gd3d19959561eb09f53078eeb10f1ef77d94117b2db5ffa54c9b758731eb7467676ca55cdb888a7cae1f8bf30ea1d18dd.jpg);
+}
+.parallax2{
+    background-image: url(https://images.unsplash.com/photo-1479233270217-77d99c494c4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.parallax3{
+    background-image: url(https://pixabay.com/get/g56d83722975a31b2ce2831be899ba1a4c32daea1d88b93ab940dac4b906d2173b239a42e960e33b2f7e6c9c4adc2ae82.jpg);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #0D47A1;
+    color: #fff;
+}
+
+thead th{
+    width: 20%;
+}
+
+ul{
+    margin-left: 50px;
+}
