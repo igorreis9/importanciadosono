@@ -37,6 +37,9 @@ header p{
     height: 100vh;
 }
 
+
+
+
 .box{
     /* background-color: #f4f4f4; */
     padding: 20px;
@@ -99,4 +102,46 @@ thead th{
 
 ul{
     margin-left: 50px;
+}
+
+@media (max-width: 768px){
+    .box{
+    padding: 30px;
+    margin: 0px;
+    width: 100%;
+}
+
+.container1{height: 200vh;}
+.container2{height: 70vh;}
+.container3{height: 90vh;}
+.container4{height: 100vh;}
+
+}
+
+@media (max-width: 480px){
+    .box{
+    padding: 30px;
+    margin: 0px;
+    width: 100%;
+}
+
+.container1{height: 110vh;}
+.container2{height: 170vh;}
+.container3{height: 160vh;}
+.container4{height: 215vh;} 
+
+}
+
+@media (max-width: 320px){
+    .box{
+    padding: 30px;
+    margin: 0px;
+    width: 100%;
+}
+
+.container1{height: 180vh;}
+.container2{height: 380vh;}
+.container3{height: 250vh;}
+.container4{height: 480vh;}
+
 }
