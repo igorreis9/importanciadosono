@@ -7,6 +7,7 @@
 body{
     font-family: "Assistant", sans-serif;
     line-height: 1.6;
+    background-color: #E0F7FA;
 }
 
 .header{
@@ -37,7 +38,7 @@ header p{
 }
 
 .box{
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     padding: 20px;
     margin: 10px;
     width: 60%;
@@ -57,13 +58,16 @@ header p{
 }
 
 .parallax1{
-    background-image: url(https://pixabay.com/get/gd3d19959561eb09f53078eeb10f1ef77d94117b2db5ffa54c9b758731eb7467676ca55cdb888a7cae1f8bf30ea1d18dd.jpg);
+    background-image: url(./cat.jpg);
 }
 .parallax2{
     background-image: url(https://images.unsplash.com/photo-1479233270217-77d99c494c4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .parallax3{
-    background-image: url(https://pixabay.com/get/g56d83722975a31b2ce2831be899ba1a4c32daea1d88b93ab940dac4b906d2173b239a42e960e33b2f7e6c9c4adc2ae82.jpg);
+    background-image: url(./baby.jpg);
+}
+.parallax4{
+    background-image: url(https://images.everydayhealth.com/images/news/sleep-disturbances-affect-skin-disease-patients-1440x810.jpg?sfvrsn=639bc137_5);
 }
 
 .parallax{
